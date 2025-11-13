@@ -1,0 +1,74 @@
+{
+  "human": {
+    "context_config": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "non_human": {
+    "context_config": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "food": {
+    "context_config": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "spell": {
+    "context_config": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  "side_facing": {
+    "context_config": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "unconditional": {
+    "context_config": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "mixed_human_food": {
+    "context_config": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "mixed_spell_side": {
+    "context_config": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  }
+}
