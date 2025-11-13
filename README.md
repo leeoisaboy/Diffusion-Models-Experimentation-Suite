@@ -159,48 +159,30 @@ print(f"Speedup: {sampling_results['speedup']:.1f}x")
 ## 📁 Project Structure
 
 ```
-Diffusion-Experiments/
-│
-├── Original Course Materials
-│   ├── diffusion_utilities.py         # Core DDPM/DDIM/ContextUnet (+ enhancements)
-│   ├── L1_Sampling.ipynb              # Tutorial: Sampling algorithms
-│   ├── L2_Training.ipynb              # Tutorial: Training diffusion models
-│   ├── L3_Context.ipynb               # Tutorial: Context conditioning
-│   └── L4_FastSampling.ipynb          # Tutorial: DDIM fast sampling
-│
-├── Experimentation Framework (NEW)
-│   ├── experiment_design.py           # 🆕 Unified experiment management
-│   ├── experiment_analysis.py         # 🆕 Automated analysis & reporting
-│   ├── test_guided_generation.py      # 🆕 Quick testing script
-│   ├── diagnose_model.py              # 🆕 Model diagnostics
-│   ├── compare_results.py             # 🆕 Visual comparison tools
-│   └── view_training_data.py          # 🆕 Dataset visualization
-│
-├── Data & Weights
-│   ├── sprites_1788_16x16.npy         # Training dataset (89,400 sprites)
-│   ├── sprite_labels_nc_1788_16x16.npy # Category labels
-│   └── weights/
-│       └── context_model_31.pth       # Pre-trained model (6MB)
-│
-├── Documentation (NEW)
-│   ├── GUIDED_GENERATION_SOLUTION.md  # 🆕 Technical details & troubleshooting
-│   └── 引导生成修复总结.md              # 🆕 Implementation notes (Chinese)
-│
-├── Experiment Results
-│   └── experiment_results/
-│       ├── experiment_report.md        # Auto-generated analysis
-│       ├── hyperparameter_results.json # Raw experiment data
-│       ├── hyperparameter_losses.png   # Loss curves (with zoom)
-│       ├── guided_generation_comparison.png # Category gallery
-│       ├── samples/                    # Generated images
-│       │   ├── guided_human.png
-│       │   ├── guided_food.png
-│       │   └── ... (8 categories)
-│       └── model_exp_*.pth             # Trained models (9 configs)
-│
-├── LICENSE                             # MIT License
-├── .gitignore                          # Git ignore rules
-└── README.md                           # This file
+Diffusion-Models-Experimentation-Suite/
+├── Core/
+│   ├── diffusion_utilities.py
+│   ├── experiment_analysis.py
+│   └── experiment_design.py
+├── Data/
+│   ├── sprite_labels_nc_1788_16x16.npy
+│   └── sprites_1788_16x16.npy
+├── Scripts/
+│   ├── compare_results.py
+│   ├── diagnose_model.py
+│   ├── test_guided_generation.py
+│   └── view_training_data.py
+├── experiment_results/
+│   ├── samples/
+│   ├── guided_generation.json
+│   ├── guided_generation_comparison..
+│   ├── hyperparameter_losses.png
+│   ├── hyperparameter_results.json
+│   ├── sampling_comparison.json
+│   └── sampling_time_comparison.png
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ---
