@@ -490,8 +490,8 @@ samples = sample_ddim(...)  # Not sample_ddpm(...)
 ## 📬 Contact & Support
 
 **Questions or Issues?**
-- Open an issue: [GitHub Issues](https://github.com/[YourUsername]/Diffusion-Experiments/issues)
-- Email: your.email@example.com
+- Open an issue: [GitHub Issues](https://github.com/leeoisaboy/Diffusion-Models-Experimentation-Suite/issues)
+- Email: 13850666310@163.com
 - Pull requests welcome!
 
 **Found a bug?** Please report with:
